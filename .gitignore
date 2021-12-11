@@ -6,9 +6,9 @@
 .pnp.js
 
 /*/node_modules
-/client/.next/
-/client/out/
-/client/build
+/*/.next
+/*/out
+/*/build
 
 # testing
 /coverage

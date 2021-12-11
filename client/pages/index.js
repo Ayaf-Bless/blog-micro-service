@@ -18,7 +18,7 @@ export default function Home(props) {
 }
 
 export async function getStaticProps(context) {
-  const posts = await axios.get("http://localhost:4000/posts");
+  const posts = await axios.get("http://localhost:4002/posts");
   const { data } = posts;
   return {
     props: data, // will be passed to the page component as props

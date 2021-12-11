@@ -4,7 +4,7 @@ import CommentList from "./commentList";
 
 const PostList = ({ data }) => {
   const renderPosts = Object.values(data).map((post) => {
-    return (w
+    return (
       <div
         className={"card"}
         style={{ width: "30%", marginBottom: "20%" }}
@@ -12,7 +12,7 @@ const PostList = ({ data }) => {
       >
         <div className={"card-body"}>
           <h3>{post.title}</h3>
-          <CommentList postId={post.id} />
+          <CommentList comments={post.comments} />
           <CommentCreate postId={post.id} />
         </div>
       </div>

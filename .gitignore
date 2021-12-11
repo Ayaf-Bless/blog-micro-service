@@ -9,6 +9,7 @@
 /client/.next
 /*/out
 /*/build
+.idea
 
 # testing
 /coverage

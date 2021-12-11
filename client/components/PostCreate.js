@@ -18,11 +18,12 @@ const PostCreate = () => {
           <label htmlFor="title">Title</label>
           <input
             type="text"
-            name="comment"
+            name="post"
             id="title"
             className={"form-control"}
             value={title}
             onChange={handleChange}
+            autoComplete={"off"}
           />
         </div>
         <button className={"btn btn-primary"}>Submit</button>

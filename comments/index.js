@@ -9,11 +9,7 @@ app.use(cors());
 const commentsByPostId = {};
 
 app.get("/posts/:id/comments", (req, res) => {
-  const comment = commentsByPostId[req.params.id];
-  if (!comment) {
-    return res.send({ message: "comment no found" });
-  }
-  res.send(comment);
+  res.send(commentsByPostId[req.params.id] || []);
 });
 app.post("/posts/:id/comments", (req, res) => {
   const commentId = randomBytes(4).toString("hex");

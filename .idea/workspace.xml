@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a55466f-c283-40a0-bd82-da475241a8e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/comments/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/event-bus/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/event-bus/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moderation/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moderation/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-bus/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/event-bus/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/query/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/query/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/query/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +53,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.18.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/moderation" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Ayaf\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ayaf\OneDrive\Documents\Javascript\NextJS\blog-micro-service-one\moderation" />
+      <recent name="C:\Users\Ayaf\OneDrive\Documents\Javascript\NextJS\blog-micro-service-one\event-bus" />
+      <recent name="C:\Users\Ayaf\OneDrive\Documents\Javascript\NextJS\blog-micro-service-one\comments" />
+      <recent name="C:\Users\Ayaf\OneDrive\Documents\Javascript\NextJS\blog-micro-service-one\client" />
+      <recent name="C:\Users\Ayaf\OneDrive\Documents\Javascript\NextJS\blog-micro-service-one\query" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ayaf\OneDrive\Documents\Javascript\NextJS\blog-micro-service-one" />
       <recent name="C:\Users\Ayaf\OneDrive\Documents\Javascript\NextJS\blog-micro-service-one\client" />
@@ -79,7 +93,9 @@
       <workItem from="1639274795709" duration="3249000" />
       <workItem from="1639311361510" duration="1600000" />
       <workItem from="1639313025013" duration="62000" />
-      <workItem from="1639313128909" duration="4144000" />
+      <workItem from="1639313128909" duration="4954000" />
+      <workItem from="1639345237652" duration="626000" />
+      <workItem from="1639469220966" duration="2368000" />
     </task>
     <servers />
   </component>

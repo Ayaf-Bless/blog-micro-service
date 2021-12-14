@@ -12,6 +12,7 @@
 /*/build
 .idea
 STOP_HERE.txt
+STOP_HERE.*
 
 # testing
 /coverage

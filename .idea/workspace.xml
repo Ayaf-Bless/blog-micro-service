@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0a55466f-c283-40a0-bd82-da475241a8e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/comments/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-bus/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-bus/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moderation/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moderation/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-bus/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/event-bus/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/posts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,27 +33,38 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="226VfZK7h3RxA3ZBpJDvclxwOIP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.18.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/moderation" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.25" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Ayaf\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -73,6 +79,67 @@
       <recent name="C:\Users\Ayaf\OneDrive\Documents\Javascript\NextJS\blog-micro-service-one" />
       <recent name="C:\Users\Ayaf\OneDrive\Documents\Javascript\NextJS\blog-micro-service-one\client" />
     </key>
+  </component>
+  <component name="RunManager" selected="Docker.event-bus/Dockerfile">
+    <configuration name="event-bus/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="blessayaf/eveents-bus" />
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="event-bus/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/query/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (3)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/event-bus/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (4)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/comments/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.event-bus/Dockerfile" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start (2)" />
+        <item itemvalue="npm.start (4)" />
+        <item itemvalue="npm.start (3)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,7 +162,11 @@
       <workItem from="1639313025013" duration="62000" />
       <workItem from="1639313128909" duration="4954000" />
       <workItem from="1639345237652" duration="626000" />
-      <workItem from="1639469220966" duration="2368000" />
+      <workItem from="1639469220966" duration="4372000" />
+      <workItem from="1639477265604" duration="5000" />
+      <workItem from="1639504859431" duration="36000" />
+      <workItem from="1645401641249" duration="10101000" />
+      <workItem from="1645464484246" duration="9234000" />
     </task>
     <servers />
   </component>
@@ -112,7 +183,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -14,8 +14,10 @@ spec:
     spec:
       containers:
         - name: posts-depl
-          image: blessyaf/posts:0.0.1
+          image: blessayaf/posts
       restartPolicy: Always
   selector:
     matchLabels:
       app: posts
+
+

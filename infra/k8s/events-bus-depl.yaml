@@ -20,4 +20,17 @@ spec:
     matchLabels:
       app: events-bus
 
-
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: events-bus-srv
+spec:
+  selector:
+    app: events-bus
+  ports:
+    - port: 4005
+      name: events-bus
+      protocol: TCP
+      targetPort: 4005
+  type: ClusterIP

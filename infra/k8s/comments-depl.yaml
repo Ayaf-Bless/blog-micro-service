@@ -30,7 +30,7 @@ spec:
     app: comments-bus
   ports:
     - port: 4001
-      name: moderation
+      name: comments
       protocol: TCP
       targetPort: 4001
   type: ClusterIP

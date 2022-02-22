@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: query-depl
+  labels:
+    app: query
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: query-depl
+      labels:
+        app: query
+    spec:
+      containers:
+        - name: query-depl
+          image: blessayaf/query
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: query
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: query-srv
+spec:
+  selector:
+    app: query
+  ports:
+    - port: 4002
+      name: query
+      protocol: TCP
+      targetPort: 4002
+  type: ClusterIP

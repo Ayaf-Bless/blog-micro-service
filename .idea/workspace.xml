@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a55466f-c283-40a0-bd82-da475241a8e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/k8s/comments-depl.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/k8s/moderation-depl.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/k8s/query.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-bus/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/event-bus/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/comments/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moderation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moderation/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/posts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/query/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +49,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
@@ -166,7 +168,8 @@
       <workItem from="1639477265604" duration="5000" />
       <workItem from="1639504859431" duration="36000" />
       <workItem from="1645401641249" duration="10101000" />
-      <workItem from="1645464484246" duration="9234000" />
+      <workItem from="1645464484246" duration="13222000" />
+      <workItem from="1645489711671" duration="2230000" />
     </task>
     <servers />
   </component>

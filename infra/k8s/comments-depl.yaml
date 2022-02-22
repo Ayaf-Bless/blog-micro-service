@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: comments-depl
+  labels:
+    app: comments-bus
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: comments-depl
+      labels:
+        app: comments-bus
+    spec:
+      containers:
+        - name: comments-depl
+          image: blessayaf/comments
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: comments-bus
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: comments-srv
+spec:
+  selector:
+    app: comments-bus
+  ports:
+    - port: 4001
+      name: moderation
+      protocol: TCP
+      targetPort: 4001
+  type: ClusterIP

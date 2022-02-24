@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a55466f-c283-40a0-bd82-da475241a8e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/infra/k8s/client-depl.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skaffold.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/client-depl.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/client-depl.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/ingress-srv.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/ingress-srv.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
@@ -53,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.25" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,7 +79,7 @@
       <recent name="C:\Users\Ayaf\OneDrive\Documents\Javascript\NextJS\blog-micro-service-one\client" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.event-bus/Dockerfile">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="event-bus/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -107,16 +110,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start (3)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/event-bus/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="start (4)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/comments/package.json" />
       <command value="run" />
@@ -127,13 +120,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.event-bus/Dockerfile" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="Docker.event-bus/Dockerfile" />
         <item itemvalue="npm.start (2)" />
         <item itemvalue="npm.start (4)" />
-        <item itemvalue="npm.start (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +171,7 @@
       <workItem from="1645545979153" duration="5484000" />
       <workItem from="1645585742588" duration="611000" />
       <workItem from="1645649035217" duration="48000" />
+      <workItem from="1645709517759" duration="7764000" />
     </task>
     <servers />
   </component>

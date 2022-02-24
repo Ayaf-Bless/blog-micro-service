@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: client-depl
   labels:
-    app: client-bus
+    app: client
 spec:
   replicas: 1
   template:
@@ -33,4 +33,3 @@ spec:
       name: client
       protocol: TCP
       targetPort: 3000
-  type: ClusterIP
